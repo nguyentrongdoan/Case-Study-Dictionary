@@ -84,8 +84,8 @@ public class MainController {
         getAllInfomationVocabulary();
         System.out.println("Please enter word you want search: ");
         String chooseWordSearch = input.nextLine();
-        for (int i = 0; i < listVocabulary.size(); i++){
-            if (listVocabulary.get(i).getWord().equals(chooseWordSearch)){
+        for (int i = 0; i < listVocabulary.size(); i++) {
+            if (listVocabulary.get(i).getWord().equals(chooseWordSearch)) {
                 System.out.println("Word: " + listVocabulary.get(i).getWord());
                 System.out.println("Mean: " + listVocabulary.get(i).getMean());
             }
@@ -139,6 +139,4 @@ public class MainController {
             }
         }
     }
-
-
 }
